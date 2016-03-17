@@ -1,0 +1,1 @@
+To run app, open up your terminal (I use Git Bash) in the main folder and type in "node app.js". 
