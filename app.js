@@ -25,9 +25,8 @@ app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(express.methodOverride());
-app.use(express.cookieParser('Alexie Sousa Portfolio'));
-app.use(express.session());
+app.use(express.cookieParser('as_cookie'));
+app.use(express.session({secret: 'as_secret'}));
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
