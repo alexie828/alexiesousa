@@ -55,21 +55,24 @@ a:hover {
 }
 
 p {
-	max-width: 50%;
 	display: inline-block;
-	font-size: medium;
+	max-width: 50%;
+	font-size: 2vmin;
 }
 
 .button {
 	background-color: #181317;
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-	border: none;
+	font-size: 2vmin;
 	color: #FFFFFF;
-	padding: 15px 32px;
+	padding: 5px 20px 5px 20px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	overflow: visible;
+	border: none;
 	cursor: pointer;
+	max-height: 10vh;
+	display: inline-block;
 	z-index: 1;
 }
 
@@ -120,7 +123,7 @@ p {
 	margin-top: 0px;
 	position: relative;
 	top: -90%;
-	height: auto;
+	height: 40vh;
 }
 
 .proj-container-bg {
@@ -154,13 +157,13 @@ p {
 }
 
 h1 {
-	font-size: xx-large;
+	font-size: 4vmin;
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	position: relative;
 }
 
 h4 {
-	font-size: medium;
+	font-size: 2.5vmin;
 }
 
 .proj-title {
@@ -183,6 +186,7 @@ h4 {
 
 .proj-prev {
 	max-width: 90%;
+	max-height: 45vh;
 	height: auto;
 }
 
@@ -200,7 +204,8 @@ h4 {
 	max-width: 70%;
 	max-height: 80%;
 	display: block;
-	padding: 25px 10px 10px 10px;
+	padding-top: 25px;
+	padding-bottom: 10px;
 	margin: auto;
 }
 
@@ -209,13 +214,19 @@ h4 {
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -20%);
-	max-height: 80%;
+	max-width: 90%;
+	max-height: 45vh;
 }
 
 .proj-ss {
 	position: relative;
-	max-height: 50%;
+	max-width: 90%;
+	max-height: 45vh;
 	margin-top: 100px;
+}
+
+.runners {
+	max-width: 15%
 }
 
 .shadow {
