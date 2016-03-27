@@ -4,6 +4,8 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	height: 100vh;
+	width: 100vh;
 }
 
 body {
@@ -56,8 +58,8 @@ a:hover {
 
 p {
 	display: inline-block;
-	max-width: 50%;
-	font-size: 2vmin;
+	max-width: 70%;
+	font-size: 2.5vmin;
 }
 
 .button {
@@ -216,13 +218,15 @@ h4 {
 	transform: translate(-50%, -20%);
 	max-width: 90%;
 	max-height: 45vh;
+	margin: auto;
 }
 
 .proj-ss {
 	position: relative;
 	max-width: 90%;
 	max-height: 45vh;
-	margin-top: 100px;
+	margin: 0 auto;
+	margin-top: 10%;
 }
 
 .runners {
