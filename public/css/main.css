@@ -11,39 +11,6 @@ body {
 	font-family: 'Libre Baskerville', serif;
 }
 
-.main {
-	text-align: center
-	overflow: auto;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	bottom: 0px;
-	right: 0px;
-}
-
-.navbar {
-	position: absolute;
-	z-index: 1;
-	list-style-type: none;
-	right: 50px;
-	padding: 0;
-	max-width: 90%;
-}
-
-.navbar li {
-	display: inline-block;
-	margin: 0px 10px 0px 10px;
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-	font-size: 130%;
-}
-
-.footer {
-	text-align: center;
-	font-size: 120%;
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-	padding: 10px 10px 10px 10px;
-}
-
 a {
 	color: #181317;
 	text-decoration: none;
@@ -54,10 +21,17 @@ a:hover {
 	text-decoration: none;
 }
 
-p {
-	display: inline-block;
+#about-bg {
+	background-color: #f1a39e;
+}
+
+.arrow {
 	max-width: 70%;
-	font-size: 2.5vmin;
+	max-height: 80%;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	margin: auto;
 }
 
 .button {
@@ -83,61 +57,57 @@ p {
 	overflow: auto;
 }
 
-.title-container {
-	height: 100%;
-}
-
-.proj-title-container {
-	height: 60%;
-	margin-top: 60px;
-	position: relative;
-}
-
-.proj-opaque-container {
-	height: 100%;
+.footer {
 	text-align: center;
+	font-size: 120%;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	padding: 10px 10px 10px 10px;
+}
+
+h1 {
+	font-size: 4vmin;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	position: relative;
+}
+
+h4 {
+	font-size: 2.5vmin;
+}
+
+.main {
+	text-align: center
+	overflow: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.navbar {
+	position: absolute;
+	z-index: 1;
+	list-style-type: none;
+	right: 3%;
+	padding: 0;
+	max-width: 90%;
+}
+
+.navbar li {
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 130%;
 }
 
 .opaque-white {
 	background-color: #FFFFFF;
 }
 
-.opaque-black {
-	background-color: #000000;
-}
-
-.proj-trans-container {
-	height: 100%;
-	text-align: center;
-	position: relative;
-}
-
-.proj-container {
-	text-align: center;
-	height: 100%;
-}
-
-.proj-container-contents {
-	text-align: center;
-	margin-top: 0px;
-	position: relative;
-	top: -90%;
-	height: 40vh;
-}
-
-.proj-container-bg {
-	height: 100%;
-	opacity: 0.4;
-}
-
-.title {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 90%;
-	height: auto;
+p {
+	display: inline-block;
+	max-width: 70%;
+	font-size: 2.2vmin;
 }
 
 #proj1 {
@@ -152,61 +122,23 @@ p {
 	background-color: #56ce95;
 }
 
-#about-bg {
-	background-color: #f1a39e;
+.proj-container {
+	text-align: center;
+	height: 100%;
 }
 
-h1 {
-	font-size: 4vmin;
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+.proj-container-bg {
+	height: 100%;
+	opacity: 0.4;
 	position: relative;
 }
 
-h4 {
-	font-size: 2.5vmin;
-}
-
-.proj-title {
-	text-align: right;
-	max-width: 50%;
-	top: 10%;
-	right: 200px;
-}
-
-.title-content {
+.proj-container-contents {
+	text-align: center;
+	margin-top: 0px;
 	position: relative;
-	float: right;
-	margin-right: 200px;
-	top: 10%;
-}
-
-.title-content p {
-	font-size: small;
-}
-
-.proj-prev {
-	max-width: 90%;
-	max-height: 45vh;
-	height: auto;
-}
-
-.scroll-direction {
-	position: absolute;
-	top: 95%;
-	left: 50%;
-	transform: translate(-50%, -95%);
-	max-width: 5%;
-	height: auto;
-	border: 2px dashed #181317;
-}
-
-.arrow {
-	max-width: 70%;
-	max-height: 80%;
-	display: block;
-	padding-top: 25px;
-	padding-bottom: 10px;
-	margin: auto;
+	top: -90%;
+	height: 40vh;
 }
 
 .proj-logo {
@@ -219,18 +151,85 @@ h4 {
 	margin: auto;
 }
 
+.proj-opaque-container {
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.proj-prev {
+	max-width: 90%;
+	max-height: 45vh;
+	height: auto;
+}
+
 .proj-ss {
 	position: relative;
 	max-width: 90%;
 	max-height: 45vh;
 	margin: 0 auto;
-	margin-top: 10%;
+	margin: 1%;
+}
+
+.proj-title {
+	text-align: right;
+	max-width: 50%;
+	top: 10%;
+	right: 200px;
+}
+
+.proj-title-container {
+	height: 60%;
+	margin-top: 60px;
+	position: relative;
+}
+
+.proj-trans-container {
+	height: 100%;
+	text-align: center;
+	position: relative;
 }
 
 .runners {
 	max-width: 15%
 }
 
+.scroll-direction {
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -95%);
+	max-width: 5%;
+	height: auto;
+	border: 2px dashed #181317;
+}
+
 .shadow {
 	box-shadow: 0px 0px 8px #888888;
 }
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+	height: auto;
+}
+
+.title-container {
+	height: 100%;
+}
+
+
+.title-content {
+	position: relative;
+	float: right;
+	margin-right: 200px;
+	top: 10%;
+}
+
+.title-content p {
+	font-size: small;
+}
+
