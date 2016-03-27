@@ -50,6 +50,70 @@ a:hover {
 	z-index: 1;
 }
 
+#color-apricot {
+	background-color: #deb99b;
+}
+
+#color-black {
+	background-color: #000000;
+}
+
+#color-cdblue {
+	background-color: #143659;
+}
+
+#color-cdorange {
+	background-color: #f37651;
+}
+
+#color-dust {
+	background-color: #a4cece;
+}
+
+#color-intblue {
+	background-color: #23466f;
+}
+
+#color-intorange {
+	background-color: #f26532;
+}
+
+#color-intred {
+	background-color: #a21d21;
+}
+
+#color-lilac {
+	background-color: #de9ef1;
+}
+
+#color-lavendar {
+	background-color: #ceaacc;
+}
+
+#color-mint {
+	background-color: #b5ccab;
+}
+
+#color-mustard {
+	background-color: #e0d29c;
+}
+
+#color-redwood {
+	background-color: #cfa8a8;
+}
+
+#color-seagreen {
+	background-color: #56ce95;
+}
+
+#color-teal {
+	background-color: #56cec5;
+}
+
+#color-white {
+	background-color: #FFFFFF;
+}
+
 .container {
 	margin: auto;
 	position: relative;
@@ -100,26 +164,10 @@ h4 {
 	font-size: 130%;
 }
 
-.opaque-white {
-	background-color: #FFFFFF;
-}
-
 p {
 	display: inline-block;
 	max-width: 70%;
-	font-size: 2.2vmin;
-}
-
-#proj1 {
-	background-color: #de9ef1;
-}
-
-#proj2 {
-	background-color: #56cec5;
-}
-
-#proj3 {
-	background-color: #56ce95;
+	font-size: 2vmin;
 }
 
 .proj-container {
@@ -151,12 +199,6 @@ p {
 	margin: auto;
 }
 
-.proj-opaque-container {
-	height: 100%;
-	text-align: center;
-	position: relative;
-}
-
 .proj-prev {
 	max-width: 90%;
 	max-height: 45vh;
@@ -166,9 +208,8 @@ p {
 .proj-ss {
 	position: relative;
 	max-width: 90%;
-	max-height: 45vh;
+	max-height: 40vh;
 	margin: 0 auto;
-	margin: 1%;
 }
 
 .proj-title {
@@ -178,16 +219,20 @@ p {
 	right: 200px;
 }
 
+.proj-title-bg {
+	height: 100%;
+	opacity: 0.5;
+	position: relative;
+}
+
 .proj-title-container {
 	height: 60%;
 	margin-top: 60px;
 	position: relative;
 }
 
-.proj-trans-container {
+.proj-title-contents {
 	height: 100%;
-	text-align: center;
-	position: relative;
 }
 
 .runners {
@@ -205,7 +250,7 @@ p {
 }
 
 .shadow {
-	box-shadow: 0px 0px 8px #888888;
+	box-shadow: 0px 0px 8px #464646;
 }
 
 .title {
