@@ -1,5 +1,5 @@
 html {
-	background: url(../images/checkerBG.jpg) no-repeat center center fixed;
+	background: url(../images/dotBG.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -54,16 +54,20 @@ a:hover {
 	background-color: #deb99b;
 }
 
+#color-aqua {
+	background-color: #56b6ce;
+}
+
 #color-black {
 	background-color: #000000;
 }
 
-#color-cdblue {
-	background-color: #143659;
-}
-
 #color-cdorange {
 	background-color: #f37651;
+}
+
+#color-cerulean {
+	background-color: #428fde;
 }
 
 #color-dust {
@@ -71,15 +75,15 @@ a:hover {
 }
 
 #color-intblue {
-	background-color: #23466f;
+	background-color: #4a8edc;
 }
 
 #color-intorange {
-	background-color: #f26532;
+	background-color: #f79b7a;
 }
 
 #color-intred {
-	background-color: #a21d21;
+	background-color: #f76b6f;
 }
 
 #color-lilac {
@@ -98,12 +102,20 @@ a:hover {
 	background-color: #e0d29c;
 }
 
+#color-periwinkle {
+	background-color: #8fa7ff;
+}
+
 #color-redwood {
 	background-color: #cfa8a8;
 }
 
 #color-seagreen {
 	background-color: #56ce95;
+}
+
+#color-sky {
+	background-color: #42adde;
 }
 
 #color-teal {
